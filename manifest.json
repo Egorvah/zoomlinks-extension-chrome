@@ -1,0 +1,24 @@
+{
+    "name": "Zoomlinks extension",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "Add new link",
+
+
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "http://zoomlinks.ru/*"
+    ],
+
+    "offline_enabled": false,
+    "sandbox": {
+        "pages": ["popup.html"]
+    },
+    "browser_action": {
+        "default_title": "Zoomlinks",
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html"
+    }
+}
