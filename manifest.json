@@ -1,11 +1,17 @@
 {
     "name": "Zoomlinks extension",
+    "homepage_url": "http://zoomlinks.ru/",
     "version": "1.0",
     "manifest_version": 2,
 
-    "description": "Add new link",
+    "description": "Add new link CTRL + SHIFT + E",
 
-
+    "icons": {
+        "16": "images/zoomlinks_icon_08.png",
+        "24": "images/zoomlinks_icon_11.png",
+        "48": "images/zoomlinks_icon_06.png",
+        "128":"images/zoomlinks_icon_03.png"
+    },
     "permissions": [
         "tabs",
         "bookmarks",
@@ -13,12 +19,21 @@
     ],
 
     "offline_enabled": false,
-    "sandbox": {
-        "pages": ["popup.html"]
+    "web_accessible_resources" :[
+        "popup.html"
+    ],
+    "background": {
+        "scripts": ["js/jquery-1.8.3.min.js", "background.js"]
     },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["js/script.js"]
+        }
+    ],
     "browser_action": {
         "default_title": "Zoomlinks",
-        "default_icon": "images/icon.png",
+        "default_icon": "images/zoomlinks_icon_11.png",
         "default_popup": "popup.html"
     }
 }

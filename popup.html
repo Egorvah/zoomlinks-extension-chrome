@@ -1,29 +1,21 @@
 <!doctype html>
-<html>
+<html ng-app="zoomlinks" ng-csp>
 <head>
-
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-resource-1.0.1.js"></script>
+    <script src="js/angular-ui.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
-<body style="width: 300px; height:300px;" ng-app="zoomlinks" >
-<script src="js/jquery-1.8.3.min.js"></script>
-
-<script src="js/angular.min.js"></script>
-<script src="js/angular-resource-1.0.1.js"></script>
-<script src="js/angular-ui.min.js"></script>
-
-
-<script src="js/main.js"></script>
+<body style="width: 200px; height:120px; ">
 <div ng-controller="MainCtr">
+    <br/>
+    <button ng-click="exportBookmarks()" class="e-action-btn" >Export bookmarks</button>
+    <br/>
+    <br/>
+    <button ng-click="exportTabs()" class="e-action-btn" >Export tabs</button>
 
-
-    <button ng-click="exportBookmarks()" >ANG export bookmarks</button><br>
-    <button export-tabs="exportTabs()">ANG export tabs</button>
-
-	<span style="display: none">
-		<form id="appendLink" method="post" action="http://zoomlinks.ru/rest/link" >
-			<input id="url" name="url" >
-			<input id="folder" type="hidden" name="folder" value="0">
-		</form>
-	</span>
 </div>
 </body>
 </html>
