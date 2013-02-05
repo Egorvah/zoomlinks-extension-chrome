@@ -70,7 +70,7 @@
       <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="138" selection-end="160" vertical-scroll-proportion="-2.5">
+            <state line="3" column="64" selection-start="120" selection-end="120" vertical-scroll-proportion="-1.875">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -96,19 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/background.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="manifest.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="46" selection-start="645" selection-end="645" vertical-scroll-proportion="0.45509708">
+            <state line="25" column="50" selection-start="649" selection-end="649" vertical-scroll-proportion="0.45509708">
               <folding />
             </state>
           </provider>
@@ -127,8 +118,8 @@
         <option value="$PROJECT_DIR$/hotkey.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/main.coffee" />
-        <option value="$PROJECT_DIR$/popup.html" />
         <option value="$PROJECT_DIR$/background.js" />
+        <option value="$PROJECT_DIR$/popup.html" />
         <option value="$PROJECT_DIR$/manifest.json" />
       </list>
     </option>
@@ -458,25 +449,18 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="138" selection-end="160" vertical-scroll-proportion="-2.5">
+        <state line="3" column="64" selection-start="120" selection-end="120" vertical-scroll-proportion="-1.875">
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/background.js">
+    <entry file="file://$PROJECT_DIR$/js/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+        <state line="4" column="47" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -490,7 +474,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="46" selection-start="645" selection-end="645" vertical-scroll-proportion="0.45509708">
+        <state line="25" column="50" selection-start="649" selection-end="649" vertical-scroll-proportion="0.45509708">
           <folding />
         </state>
       </provider>
