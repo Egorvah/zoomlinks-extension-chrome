@@ -8,19 +8,19 @@
 chrome.extension.onRequest.addListener(function(request, sender, callback) {
     if(request && request.localStorage) {callback(); return; };
 
-    alert('activeTab');
-    chrome.tabs.getSelected(null, function(tab) {
-        $.post("http://zoomlinks.ru/rest/link", { url: tab.url, folder: 0 } );
-    });
-    /*var chromeExtURL="http://zoomlinks.ru/";
-    chrome.tabs.getAllInWindow(null,function(tabs){
-        for (var i=0;i<tabs.length;i++){
-            if (tabs[i].url == chromeExtURL){
-                chrome.tabs.update(tabs[i].id, {selected:true})
-                return;
-            }
-        }
-        chrome.tabs.create({url:chromeExtURL,selected:true})
-    })*/
+        chrome.tabs.getSelected(null, function(tab) {
+
+
+
+            $.post("http://zoomlinks.ru/rest/link", { url: tab.url, folder: 0 }).done(function(data) {
+                    chrome.browserAction.setIcon({path:"images/zoomlinks_new_link.png"});
+                }).fail(function(data){
+                    chrome.browserAction.setIcon({path:"images/zoomlinks_error.png"});
+                });
+
+            setTimeout(function(){
+                chrome.browserAction.setIcon({path:"images/zoomlinks_icon.png"})
+            }, 3000);
+        });
 
 });
