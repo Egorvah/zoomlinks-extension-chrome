@@ -8,7 +8,7 @@
 
     "icons": {
         "16": "images/zoomlinks_icon_08.png",
-        "24": "images/zoomlinks_icon_11.png",
+        "24": "images/zoomlinks_icon.png",
         "48": "images/zoomlinks_icon_06.png",
         "128":"images/zoomlinks_icon_03.png"
     },
@@ -33,7 +33,7 @@
     ],
     "browser_action": {
         "default_title": "Zoomlinks",
-        "default_icon": "images/zoomlinks_icon_11.png",
+        "default_icon": "images/zoomlinks_icon.png",
         "default_popup": "popup.html"
     }
 }

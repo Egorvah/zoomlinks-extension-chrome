@@ -4,11 +4,29 @@
     <list default="true" id="6ea032eb-e166-4081-8e3f-447ebf79d171" name="Default" comment="" />
     <ignored path="zoomlinks-extension-chrome.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360063172336" ignored="false" />
-    <file path="/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360054369479" ignored="false" />
+    <file path="/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360137962831" ignored="false" />
+    <file path="/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360146856821" ignored="false" />
     <file path="/script.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360060369231" ignored="false" />
-    <file path="/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360064465379" ignored="false" />
+    <file path="/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360153106140" ignored="false" />
     <file path="/manifest.json" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360062081279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233153617" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks/web-app/coffee/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360136050368" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233109092" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/index.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233103101" ignored="false" />
+    <file path="/index.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360231229323" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/main.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360152887462" ignored="false" />
+    <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/js/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360147649596" ignored="false" />
+    <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360144385499" ignored="false" />
+    <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/js/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360145726908" ignored="false" />
+    <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360146014406" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360153801665" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/includes/userJS.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360216773081" ignored="false" />
+    <file path="/userJS.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360158097244" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/config.xml" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233256966" ignored="false" />
+    <file path="/config.xml" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233255819" ignored="false" />
+    <file path="/*.regexp" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360228450028" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/options.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360231885624" ignored="false" />
+    <file path="/options.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360231691029" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +88,8 @@
       <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="64" selection-start="120" selection-end="120" vertical-scroll-proportion="-1.875">
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="1" column="25" selection-start="41" selection-end="47" vertical-scroll-proportion="-0.625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,25 +97,34 @@
       <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="47" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="24" column="30" selection-start="667" selection-end="834" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+            <state line="4" column="41" selection-start="253" selection-end="253" vertical-scroll-proportion="0.07281554">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="50" selection-start="649" selection-end="649" vertical-scroll-proportion="0.45509708">
+            <state line="6" column="49" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/background.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="350" selection-end="1025" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,10 +141,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/hotkey.js" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/main.coffee" />
         <option value="$PROJECT_DIR$/background.js" />
         <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/js/background.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
       </list>
     </option>
@@ -157,6 +183,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,10 +197,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,18 +319,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1680" height="1002" extended-state="1" />
+    <frame x="0" y="24" width="1680" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -313,10 +338,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17953432" sideWeight="0.9682179" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17953432" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -377,6 +403,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="77" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="34" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
@@ -387,9 +420,7 @@
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="38" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -417,9 +448,7 @@
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="20" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -451,30 +480,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="64" selection-start="120" selection-end="120" vertical-scroll-proportion="-1.875">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="1" column="25" selection-start="41" selection-end="47" vertical-scroll-proportion="-0.625">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+        <state line="24" column="30" selection-start="667" selection-end="834" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/js/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="350" selection-end="1025" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="50" selection-start="649" selection-end="649" vertical-scroll-proportion="0.45509708">
+        <state line="6" column="49" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="253" selection-end="253" vertical-scroll-proportion="0.07281554">
           <folding />
         </state>
       </provider>

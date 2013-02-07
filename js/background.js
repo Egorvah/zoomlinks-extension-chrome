@@ -14,12 +14,15 @@ chrome.extension.onRequest.addListener(function(request, sender, callback) {
 
             $.post("http://zoomlinks.ru/rest/link", { url: tab.url, folder: 0 }).done(function(data) {
                     chrome.browserAction.setIcon({path:"images/zoomlinks_new_link.png"});
+                    chrome.browserAction.setBadgeText({text: "OK"})
                 }).fail(function(data){
                     chrome.browserAction.setIcon({path:"images/zoomlinks_error.png"});
+                    chrome.browserAction.setBadgeText({text: "!"})
                 });
 
             setTimeout(function(){
                 chrome.browserAction.setIcon({path:"images/zoomlinks_icon.png"})
+                chrome.browserAction.setBadgeText({text: ""})
             }, 3000);
         });
 
