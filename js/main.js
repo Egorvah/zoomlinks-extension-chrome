@@ -8,65 +8,106 @@
     return $resource('http://zoomlinks.ru/rest/link/:id');
   });
 
-  m.controller('MainCtr', function($scope, Link) {
-    $scope.exportBookmarks = function() {
-      return chrome.bookmarks.getTree(function(BookmarkTreeNode) {
-        var boookmark, folder, link, tree, _i, _len, _results;
-        _results = [];
-        for (_i = 0, _len = BookmarkTreeNode.length; _i < _len; _i++) {
-          tree = BookmarkTreeNode[_i];
-          _results.push((function() {
-            var _j, _len1, _ref, _results1;
-            _ref = tree.children;
-            _results1 = [];
-            for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
-              folder = _ref[_j];
-              _results1.push((function() {
-                var _k, _len2, _ref1, _ref2, _results2;
-                _ref1 = folder.children;
-                _results2 = [];
-                for (_k = 0, _len2 = _ref1.length; _k < _len2; _k++) {
-                  boookmark = _ref1[_k];
-                  link = new Link();
-                  link.url = boookmark.url;
-                  link.folder = ((_ref2 = $scope.currentFolder) != null ? _ref2.id : void 0) || 0;
-                  _results2.push(link.$save(function() {}));
-                }
-                return _results2;
-              })());
+  m.service("authService", function($http) {
+    var handleResponse,
+      _this = this;
+    this.isAuthenticated = false;
+    this.username = null;
+    handleResponse = function(data, callback) {
+      _this.isAuthenticated = data.isAuthenticated;
+      _this.username = data.username;
+      if (callback) {
+        return callback(data);
+      }
+    };
+    return this.checkAuth = function(callback) {
+      return $http.get("http://zoomlinks.ru/authApi/checkAuth").success(function(data) {
+        if (!data.isAuthenticated) {
+          return $http.post("http://zoomlinks.ru/authApi/signIn", {
+            username: localStorage["username"],
+            password: localStorage["password"]
+          }).success(function(data) {
+            if (data.isAuthenticated) {
+              return handleResponse(data, callback);
             }
-            return _results1;
-          })());
+          });
+        } else {
+          return handleResponse(data, callback);
         }
-        return _results;
+      });
+    };
+  });
+
+  m.controller('PopupCtr', function($scope, Link, authService) {
+    $scope.exportBookmarks = function() {
+      return authService.checkAuth(function() {
+        return chrome.bookmarks.getTree(function(BookmarkTreeNode) {
+          var boookmark, folder, link, tree, _i, _len, _results;
+          _results = [];
+          for (_i = 0, _len = BookmarkTreeNode.length; _i < _len; _i++) {
+            tree = BookmarkTreeNode[_i];
+            _results.push((function() {
+              var _j, _len1, _ref, _results1;
+              _ref = tree.children;
+              _results1 = [];
+              for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+                folder = _ref[_j];
+                _results1.push((function() {
+                  var _k, _len2, _ref1, _ref2, _results2;
+                  _ref1 = folder.children;
+                  _results2 = [];
+                  for (_k = 0, _len2 = _ref1.length; _k < _len2; _k++) {
+                    boookmark = _ref1[_k];
+                    link = new Link();
+                    link.url = boookmark.url;
+                    link.folder = ((_ref2 = $scope.currentFolder) != null ? _ref2.id : void 0) || 0;
+                    _results2.push(link.$save(function() {}));
+                  }
+                  return _results2;
+                })());
+              }
+              return _results1;
+            })());
+          }
+          return _results;
+        });
       });
     };
     return $scope.exportTabs = function() {
-      return chrome.windows.getAll({
-        "populate": true
-      }, function(tabs) {
-        var link, tab, window, _i, _len, _results;
-        _results = [];
-        for (_i = 0, _len = tabs.length; _i < _len; _i++) {
-          window = tabs[_i];
-          _results.push((function() {
-            var _j, _len1, _ref, _ref1, _results1;
-            _ref = window.tabs;
-            _results1 = [];
-            for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
-              tab = _ref[_j];
-              link = new Link();
-              link.url = tab.url;
-              link.folder = ((_ref1 = $scope.currentFolder) != null ? _ref1.id : void 0) || 0;
-              _results1.push(link.$save(function() {
-                return console.log(tab.url);
-              }));
-            }
-            return _results1;
-          })());
-        }
-        return _results;
+      return authService.checkAuth(function() {
+        return chrome.windows.getAll({
+          "populate": true
+        }, function(tabs) {
+          var link, tab, window, _i, _len, _results;
+          _results = [];
+          for (_i = 0, _len = tabs.length; _i < _len; _i++) {
+            window = tabs[_i];
+            _results.push((function() {
+              var _j, _len1, _ref, _ref1, _results1;
+              _ref = window.tabs;
+              _results1 = [];
+              for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+                tab = _ref[_j];
+                link = new Link();
+                link.url = tab.url;
+                link.folder = ((_ref1 = $scope.currentFolder) != null ? _ref1.id : void 0) || 0;
+                _results1.push(link.$save(function() {}));
+              }
+              return _results1;
+            })());
+          }
+          return _results;
+        });
       });
+    };
+  });
+
+  m.controller('OptionsCtr', function($scope, Link, authService) {
+    $scope.username = localStorage["username"];
+    $scope.password = localStorage["password"];
+    return $scope.saveSettings = function() {
+      localStorage["username"] = $scope.username;
+      return localStorage["password"] = $scope.password;
     };
   });
 

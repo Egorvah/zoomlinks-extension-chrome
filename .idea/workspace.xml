@@ -4,29 +4,36 @@
     <list default="true" id="6ea032eb-e166-4081-8e3f-447ebf79d171" name="Default" comment="" />
     <ignored path="zoomlinks-extension-chrome.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360137962831" ignored="false" />
-    <file path="/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360146856821" ignored="false" />
+    <file path="/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360321894611" ignored="false" />
+    <file path="/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360322443006" ignored="false" />
     <file path="/script.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360060369231" ignored="false" />
-    <file path="/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360153106140" ignored="false" />
+    <file path="/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360323490994" ignored="false" />
     <file path="/manifest.json" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360062081279" ignored="false" />
-    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233153617" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360234052675" ignored="false" />
     <file path="$PROJECT_DIR$/../zoomlinks/web-app/coffee/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360136050368" ignored="false" />
-    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233109092" ignored="false" />
-    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/index.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233103101" ignored="false" />
-    <file path="/index.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360231229323" ignored="false" />
-    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/main.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360152887462" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360241579673" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/index.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360235310061" ignored="false" />
+    <file path="/index.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360235221279" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/main.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360234082351" ignored="false" />
     <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/js/main.coffee" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360147649596" ignored="false" />
     <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/popup.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360144385499" ignored="false" />
     <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/js/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360145726908" ignored="false" />
     <file path="$USER_HOME$/extension/kango/zoomlinks/src/common/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360146014406" ignored="false" />
     <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/js/background.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360153801665" ignored="false" />
-    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/includes/userJS.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360216773081" ignored="false" />
-    <file path="/userJS.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360158097244" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/includes/userJS.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360333608713" ignored="false" />
+    <file path="/userJS.js" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360324120294" ignored="false" />
     <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/config.xml" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233256966" ignored="false" />
     <file path="/config.xml" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360233255819" ignored="false" />
-    <file path="/*.regexp" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360228450028" ignored="false" />
-    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/options.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360231885624" ignored="false" />
-    <file path="/options.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360231691029" ignored="false" />
+    <file path="/*.regexp" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360326892940" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/options.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360323812191" ignored="false" />
+    <file path="/options.html" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360323749449" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks-extension-opera/css/style.css" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360323924414" ignored="false" />
+    <file path="/style.css" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360235835977" ignored="false" />
+    <file path="$USER_HOME$/.grails/2.2.0/projects/zoomlinks/plugins/shiro-1.1.4/src/java/org/apache/shiro/grails/SavedHttpServletRequest.java" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360326916944" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks/grails-app/services/zoomlinks/AuthService.groovy" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360328893633" ignored="false" />
+    <file path="/AuthService.groovy" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360328883663" ignored="false" />
+    <file path="/Config.groovy" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360327170065" ignored="false" />
+    <file path="$PROJECT_DIR$/../zoomlinks/grails-app/conf/Config.groovy" changelist="6ea032eb-e166-4081-8e3f-447ebf79d171" time="1360328328453" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,16 +95,7 @@
       <file leaf-file-name="popup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="25" selection-start="41" selection-end="47" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="667" selection-end="834" vertical-scroll-proportion="0.0">
+            <state line="15" column="36" selection-start="550" selection-end="570" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
@@ -106,7 +104,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="253" selection-end="253" vertical-scroll-proportion="0.07281554">
+            <state line="4" column="51" selection-start="180" selection-end="222" vertical-scroll-proportion="0.07281554">
               <folding />
             </state>
           </provider>
@@ -115,7 +113,7 @@
       <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="49" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="7" column="35" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +122,36 @@
       <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="350" selection-end="1025" vertical-scroll-proportion="0.0">
+            <state line="32" column="29" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="68" selection-start="561" selection-end="585" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="options.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/options.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="31" selection-start="0" selection-end="1035" vertical-scroll-proportion="-6.25">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="14175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,12 +168,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/hotkey.js" />
-        <option value="$PROJECT_DIR$/js/main.coffee" />
         <option value="$PROJECT_DIR$/background.js" />
-        <option value="$PROJECT_DIR$/popup.html" />
-        <option value="$PROJECT_DIR$/js/background.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/options.html" />
+        <option value="$PROJECT_DIR$/js/main.coffee" />
+        <option value="$PROJECT_DIR$/js/background.js" />
       </list>
     </option>
   </component>
@@ -207,6 +235,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -319,7 +348,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1680" height="1002" extended-state="0" />
+    <frame x="0" y="24" width="1680" height="1002" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -403,20 +432,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="77" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="34" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="38" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
@@ -478,37 +493,53 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="41" selection-end="47" vertical-scroll-proportion="-0.625">
+        <state line="15" column="36" selection-start="550" selection-end="570" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="667" selection-end="834" vertical-scroll-proportion="0.0">
+        <state line="18" column="68" selection-start="561" selection-end="585" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="0" selection-end="1035" vertical-scroll-proportion="-6.25">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="14175" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="350" selection-end="1025" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="49" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+        <state line="32" column="29" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="253" selection-end="253" vertical-scroll-proportion="0.07281554">
+        <state line="4" column="51" selection-start="180" selection-end="222" vertical-scroll-proportion="0.07281554">
           <folding />
         </state>
       </provider>

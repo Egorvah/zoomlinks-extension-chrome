@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="zoomlinks" ng-csp>
+<head>
+    <title>Zoomlinks settings</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-resource-1.0.1.js"></script>
+    <script src="js/angular-ui.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body ng-controller="OptionsCtr" style="padding-top: 150px;">
+<div class="b-login-form m-signIn ng-scope">
+
+        <div class="control-group b-form-field">
+            <input class="e-signIn__input m-bm ng-pristine ng-valid" type="text" placeholder="Username" ng-model="username">
+        </div>
+
+        <div class="control-group b-form-field">
+            <input class="e-signIn__input m-bm ng-pristine ng-valid" type="password" placeholder="Password" ng-model="password">
+
+            <!-- uiIf: error -->
+        </div>
+        <div class="controls">
+            <button ng-click="saveSettings()" class="e-action-btn" >Save</button>
+        </div>
+
+</div>
+
+</body>
+</html>

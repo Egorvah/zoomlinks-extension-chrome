@@ -4,8 +4,8 @@
     "version": "1.0",
     "manifest_version": 2,
 
-    "description": "Add new link CTRL + SHIFT + E",
-
+    "description": "Add new link CTRL + SHIFT + Z",
+    "options_page": "options.html",
     "icons": {
         "16": "images/zoomlinks_icon_08.png",
         "24": "images/zoomlinks_icon.png",
